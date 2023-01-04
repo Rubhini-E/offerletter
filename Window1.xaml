@@ -1,0 +1,28 @@
+﻿<Window x:Class="offer_letter.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:offer_letter"
+        mc:Ignorable="d"
+        Title="Window1" Height="750" Width="1000" Background="Honeydew">
+    <Grid>
+        <StackPanel>
+            <StackPanel>
+                <Image Source="C:\Users\rubhi\Downloads\cts1.png" Width="50" Height="62"/>
+            </StackPanel>
+            <Label Content="WELCOME TO CTS"  FontSize="26" FontWeight="ExtraBold" HorizontalContentAlignment="Center"></Label>
+            
+            <Label x:Name="lbladd" FontSize="15" FontStyle="Oblique"  HorizontalContentAlignment="Right" Height="100"></Label>
+            <Label x:Name="lblcontent" FontSize="20" HorizontalAlignment="Left" Width="895" Height="250"></Label>
+
+            <Label x:Name="lblfinal"  FontSize="20" FontStyle="Italic" Height="100" HorizontalAlignment="Left"></Label>
+
+            <Label Content="   Yours Sincerely,"></Label>
+                <Label Content="        HR TEAM," FontWeight="SemiBold" FontSize="13"></Label>
+            <Label Content="       COGNIZANT." FontWeight="SemiBold" FontSize="13"></Label>
+                
+           
+        </StackPanel>
+    </Grid>
+</Window>
